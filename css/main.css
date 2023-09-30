@@ -1,0 +1,63 @@
+/* Main  */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 80px;
+    width: 100%;
+  }
+  .sel-cal{
+    width: 400px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+   
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 73, 110, 0.200);
+  }
+  .sel-cal button {
+    width: 50%;
+    padding: 15px 0;
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .sel-cal-clicked{
+    border: 1px solid #00496e;
+    background: #00496e;
+    color: #fff;
+  }
+  
+  .sel-cal-unclicked{
+    border: 1px solid #fff;
+    background: #fff;
+    color:#00496e ;
+  }
+  .sel-cal-unclicked:hover{
+    border: 1px solid #00496e;
+  }
+  /* Cal section */
+  .cal-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+  }
+  /* Basic cal */
+  #change-cal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /* Advanced Cal */
+  /* #advanced-cal {
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+  } */
+  
